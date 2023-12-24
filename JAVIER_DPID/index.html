@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javier Cruz | Estudiante Ingeniería y Sistemas de Datos</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <section id="cv" class="sec">
+        <header>
+            <a href="#" style="text-decoration: none;">
+                <h1 class="logo-name">JCF</h1>
+            </a>
+            <div class="toggleMenu"></div>
+            <ul class="navigation">
+                <div id="marker"></div>
+                <li class="nav-item"><a class="nav-link" href="#cv" onclick="smoothScroll('cv')">Currículum</a></li>
+                <li class="nav-item"><a class="nav-link" href="#video" onclick="smoothScroll('yo')">Vídeo CV</a></li>
+                <li class="nav-item"><a class="nav-link" href="#social" onclick="smoothScroll('servicios')">Redes Sociales</a>
+                </li>
+                <li class="nav-item"><a class="nav-link" href="#contact" onclick="smoothScroll('contacto')">Contacto</a></li>
+            </ul>
+        </header>
+		<div class="content">
+			<div class="textBox">
+				<h2>Hola, soy<br><span>Javier</span></h2>
+				<p class="parrafo-about"><p>Soy un estudiante apasionado de ingeniería de datos que se embarca en la emocionante travesía del aprendizaje y la exploración tecnológica.</p>
+				<p>Actualmente estoy inmerso en mi formación académica, donde cada línea de código es una nueva lección y cada desafío es una oportunidad para crecer.
+				<p>Estoy emocionado por compartir este viaje de aprendizaje, conectar con otros estudiantes apasionados y explorar las posibilidades infinitas que la ingeniería de datos tiene para ofrecer. ¡Acompáñame en este emocionante recorrido académico!</p>
+				<a href="https://drive.google.com/file/d/16_fhezH1UOiJes187kXs3wSxJvGNf53R/view?usp=drive_link" target="_blank">Descargar Currículum Vitae (PDF)</a>
+			</div>
+			<div class="imgBox">
+				<div class="square"></div>
+				<img src="img/IMG-20231202-WA0003~2 (1).jpg" alt="" class="pepsi">
+			</div>
+		</div>
+	</section>
+
+	<section id="yo" class="about">
+		<div class="photo-container">
+			<iframe width="560" height="315" src="https://drive.google.com/file/d/1c-3D7IxArBKOpZg24o8eoFDQQ38gu3sx/preview" frameborder="0" allowfullscreen></iframe>
+		</div>
+		<div class="description-container">
+			<h2 class="title-about">Video Cv</h2>
+			<p class="parrafo-about">Cada línea de código es una oportunidad para crecer, y mi sed de conocimiento me ha llevado a explorar nuevas tecnologías y enfoques en el campo de la ingeniería de datos.</p>
+			<a class="btn-about" href="#">Conoce más</a>
+		</div>
+	</section>
+
+	<section class="container" id="servicios">
+		<div class="content-info-servicios">
+			<h2>Redes Sociales</h2>
+			<p>¡Conéctate conmigo en mis redes sociales para estar al tanto de las últimas actualizaciones y explorar juntos el fascinante mundo de la tecnología y la ingeniería de datos!</p>
+		</div>
+		<div class="content-card">
+			<div class="card">
+				<div class="face face1">
+					<div class="content-face">
+						<img src="img/Instagram_logo_2022.svg.png" alt="">
+						<h3>javicf_13</h3>
+					</div>
+				</div>
+				<div class="face face2">
+					<div class="content-face">
+						<p>¡Bienvenido a mi mundo en Instagram! 📸 Sigue mi viaje de aprendizaje en ingeniería de datos, descubre mis proyectos y comparte la emoción de explorar el fascinante universo tecnológico.</p>
+					</div>
+				</div>
+			</div>
+			<div class="card">
+				<div class="face face1">
+					<div class="content-face">
+						<img src="img/unnamed.png" alt="">
+						<h3>Javier Cruz Fonseca</h3>
+					</div>
+				</div>
+				<div class="face face2">
+					<div class="content-face">
+						<p>¡Bienvenido a mi perfil de LinkedIn! Soy Javier Cruz Fonseca, un apasionado estudiante de ingeniería de datos en constante búsqueda de aprendizaje y crecimiento. </p>
+					</div>
+				</div>
+			</div>
+			<div class="card">
+				<div class="face face1">
+					<div class="content-face">
+						<img style="color: #fff;" src="img/Logo_of_Twitter.svg.png" alt="">
+						<h3>JavierC721</h3>
+					</div>
+				</div>
+				<div class="face face2">
+					<div class="content-face">
+						<p>Bienvenido a mi rincón en Twitter. Soy JavierC721, un entusiasta de la ingeniería de datos compartiendo pensamientos, descubrimientos y proyectos emocionantes.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+<!-- 	<section class="Contact">
+	  <form method="POST" action="https://formspree.io/eddyjaair@gmail.com" class="Form">
+	    <legend class="u-message">Envíame tus comentarios</legend>
+	    <input type="text" name="name" placeholder="Escribe tu nombre" title="tu nombre" pattern="^[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+$"
+	      required>
+	    <input type="email" name="email" placeholder="Escribe tu email" title="tu email" pattern="^[_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,3})$"
+	      required>
+	    <input type="text" name="subject" title="asunto a tratar" placeholder="Asunto a tratar" required>
+	    <textarea name="comments" title="tus comentarios" placeholder="Escribe tus comentarios" required></textarea>
+	    <input type="submit" value="Enviar">
+	  </form>
+	</section> -->
+
+	<section id="contacto" class="contact">
+
+		<div class="content-form">
+			<h2>Contáctame</h2>
+			<p>Si estás interesado en colaborar o quisieras discutir cualquier cosa, por favor contáctame.</p>
+		</div>
+		<div class="container-info">
+			<div class="contact-info">
+				<div class="box">
+					<div class="icon">
+						<i class="fa fa-map-marker" aria-hidden="true"></i>
+					</div>
+					<div class="text">
+						<h3>Address</h3>
+						<p>Pintor Lizcano, 45, <br>Alcázar de San Juan, Ciudad Real<br>13600</p>
+					</div>
+				</div>
+				<div class="box">
+					<div class="icon">
+						<i class="fa fa-phone" aria-hidden="true"></i>
+					</div>
+					<div class="text">
+						<h3>Phone</h3>
+						<p><a href="tel:+51 980 751 862">+34 630 98 74 91</a></p>
+					</div>
+				</div>
+				<div class="box">
+					<div class="icon">
+						<i class="fa fa-envelope-o" aria-hidden="true"></i>
+					</div>
+					<div class="text">
+						<h3>Email</h3>
+						<p><a href = "mailto:eddyjaair@gmail.com">javibxlol@gmail.com</a></p>
+					</div>
+				</div>
+			</div>
+
+			<div class="contact-form">
+				<form method="POST" action="https://formspree.io/eddyjaair@gmail.com">
+					<h2>Send Message</h2>
+					<div class="input-box">
+						<input type="text" name="name" required="required">
+						<span>Full Name</span>
+					</div>
+					<div class="input-box">
+						<input type="email" name="_Replyto" required="required">
+						<span>Email</span>
+					</div>
+					<div class="input-box">
+						<textarea required="required" name="comments"></textarea>
+						<span>Type your message...</span>
+					</div>
+					<div class="input-box">
+						<input type="submit" name="" value="Enviar">
+					</div>
+				</form>
+			</div>
+		</div>
+
+	</section>
+
+	<script src="js/index.js"></script>
+    <script>
+        function smoothScroll(target) {
+            document.getElementById(target).scrollIntoView({
+                behavior: 'smooth'
+            });
+        }
+    </script>
+
+</body>
+</html>
